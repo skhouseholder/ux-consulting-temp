@@ -50,8 +50,8 @@ table {
 .clearfix { zoom: 1; }
 
 
-a, a:active, a:visited { color: #33abff; outline:0; text-decoration:none;}
-a:hover { color: #82bac6; }
+a, a:active, a:visited { color: #46ab9b; outline:0; text-decoration:none;}
+a:hover { color: #77d5c5; }
 
 /********************
  *
@@ -62,6 +62,7 @@ a:hover { color: #82bac6; }
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	background: #f8f8ff;
+	color: #06173E;
 }
 
 .background {	
@@ -83,7 +84,7 @@ body {
 	font-family: 'Goudy Bookletter 1911', serif;
 	padding-bottom: 0.3em;
     margin-bottom: .375em;
-	border-bottom: black solid 0.05em;
+	border-bottom: #06173E solid 0.05em;
 }
 
 .contact, .subtitle {
@@ -102,7 +103,7 @@ body {
 	width: 100%;
     margin: 10px;
     font-size: .8em;
-    color: #aaa;
+    color: #aac;
 }
 
 @media only screen and (max-device-width: 480px) {
