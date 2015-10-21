@@ -76,27 +76,28 @@ body {
 
 .content {
 	position: absolute;
-	top: 45%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
 .company-name {
 	font-size: 3.2em;
-	font-size: 7.5vh;
 	text-align: center;
 	font-family: 'Goudy Bookletter 1911', serif;
-	padding-bottom: 16px;
-	margin-bottom: 20px;
+	padding-bottom: 0.3em;
+    margin-bottom: .375em;
 	border-bottom: black solid 2px;
 }
 
 .contact, .subtitle {
 	font-size: 1.3em;
-	font-size: 3.05vh;
 	text-align: center;
 	letter-spacing: 0.025em;
-	margin-bottom: 54px;
+}
+
+.subtitle {
+	margin-bottom: 3em;
 }
 
 .footer {
@@ -106,4 +107,23 @@ body {
     margin: 10px;
     font-size: .8em;
     color: #aaa;
+}
+
+@media only screen and (max-device-width: 650px) {
+
+	.company-name {
+		font-size: 7em;
+	}
+
+	.contact, .subtitle {
+		font-size: 3em;
+	}
+
+	.subtitle {
+		margin-bottom: 2em;
+	}
+
+	.footer {
+		font-size: 1em;
+	}
 }
