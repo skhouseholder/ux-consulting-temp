@@ -83,6 +83,7 @@ body {
 
 .company-name {
 	font-size: 3.2em;
+	font-size: 7.5vh;
 	text-align: center;
 	font-family: 'Goudy Bookletter 1911', serif;
 	padding-bottom: 16px;
@@ -92,6 +93,7 @@ body {
 
 .contact, .subtitle {
 	font-size: 1.3em;
+	font-size: 3.05vh;
 	text-align: center;
 	letter-spacing: 0.025em;
 	margin-bottom: 54px;
