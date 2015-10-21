@@ -59,6 +59,9 @@ a:hover { color: #82bac6; }
  *
  *********************/
 
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
 
 .background {
 	background-color: #eee;
@@ -71,14 +74,27 @@ a:hover { color: #82bac6; }
     right: 0;
 }
 
-.title-text {
-	font-size: 1.5em;
-	text-align: center;
+.content {
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-    /*margin-top: 50%;*/
+}
+
+.company-name {
+	font-size: 3.2em;
+	text-align: center;
+	font-family: 'Goudy Bookletter 1911', serif;
+	padding-bottom: 16px;
+	margin-bottom: 20px;
+	border-bottom: black solid 2px;
+}
+
+.contact, .subtitle {
+	font-size: 1.3em;
+	text-align: center;
+	letter-spacing: 0.025em;
+	margin-bottom: 54px;
 }
 
 .footer {
@@ -87,4 +103,5 @@ a:hover { color: #82bac6; }
 	width: 100%;
     margin: 10px;
     font-size: .8em;
+    color: #aaa;
 }
